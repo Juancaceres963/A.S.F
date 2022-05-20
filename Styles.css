@@ -1,0 +1,50 @@
+body {
+background-image: url(https://images7.alphacoders.com/932/932701.jpg);
+background-position: center;
+font-family: 'Gill Sans';
+padding-top: 40px;
+padding-left: 25%;
+padding-right: 25%;
+padding-bottom: 40px;
+}
+
+.background {
+background-color: rgba(126, 126, 128, 0.685);
+padding: 30px;
+border-radius: 20px;
+}
+
+h1 {
+font-size: 50px;
+margin-top: 0;
+text-align: center;
+color: white;
+background-color: rgba(0, 0, 0, 0.555);
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+
+p {
+background-color: rgba(0, 0, 0, 0.555);
+color: white;
+margin-left:  40px;
+margin-right: 40px;
+border-radius: 20px;
+text-align: center;
+}
+
+.datos input, textarea, select {
+margin: 10px 0 10px 0;
+width: 100%;
+min-height: 2em;}
+
+section {
+margin: 10px 0 20px 0;
+padding-left: 40px;
+width: 100%;
+min-height: 2em;
+}
+
