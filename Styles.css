@@ -1,29 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+
 body {
   background-image: url(https://images7.alphacoders.com/932/932701.jpg);
   background-position: center;
   font-family: "Gill Sans";
-  padding-top: 40px;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-bottom: 40px;
+  padding-top: 0px;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  
 }
 
 .background {
-  background-color: rgba(126, 126, 128, 0.685);
-  padding: 30px;
+  background-color: #ffffff;
+  background-image: radial-gradient(#120d49 0.5px, #ffffff 0.5px);
+  background-size: 40px 40px;
+  padding: 0px;
   border-radius: 20px;
+  background-color: #ffffff80;
+  margin: 10px;
+  width: 90%;
+  max-width: 550px;
+  padding: 1.5em 1.5em;
+  box-shadow: 0 5px 10px -5px rgb(o o o / 30%);
+  
 }
+
 
 h1 {
   font-size: 50px;
-  margin-top: 0;
   text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.555);
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border-radius: 20px;
 }
 
@@ -31,7 +46,7 @@ p {
   background-color: rgba(0, 0, 0, 0.555);
   color: white;
   margin-left: 40px;
-  margin-right: 40px;
+  margin-right: 20px;
   border-radius: 20px;
   text-align: center;
 }
@@ -44,9 +59,3 @@ select {
   min-height: 2em;
 }
 
-section {
-  margin: 10px 0 20px 0;
-  padding-left: 40px;
-  width: 100%;
-  min-height: 2em;
-}
