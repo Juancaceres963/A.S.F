@@ -1,61 +1,94 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Permanent+Marker&family=Roboto:wght@300;400;700&display=swap');
 
 
 body {
   background-image: url(https://images7.alphacoders.com/932/932701.jpg);
   background-position: center;
-  font-family: "Gill Sans";
-  padding-top: 0px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  padding-top: 1%;
   padding-left: 30%;
   padding-right: 30%;
-  padding-bottom: 0px;
-  font-family: 'Roboto', sans-serif;
-  
+  padding-bottom: 1%; 
 }
 
 .background {
-  background-color: #ffffff;
-  background-image: radial-gradient(#120d49 0.5px, #ffffff 0.5px);
-  background-size: 40px 40px;
-  padding: 0px;
   border-radius: 20px;
-  background-color: #ffffff80;
-  margin: 10px;
-  width: 90%;
-  max-width: 550px;
-  padding: 1.5em 1.5em;
-  box-shadow: 0 5px 10px -5px rgb(o o o / 30%);
-  
+  background-color: #f0f0f0ce;
+  margin:auto;
+  width: 70%;
+  max-width: 400px;
+  min-width: 200px;
+  padding: 0em 3em;
+  border-color: rgba(78, 10, 10, 0.767);
+  border-style: solid;
 }
-
 
 h1 {
   font-size: 50px;
   text-align: center;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.555);
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border-radius: 20px;
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(11, 4, 53);
+  margin-bottom: -15px;
 }
 
 p {
-  background-color: rgba(0, 0, 0, 0.555);
-  color: white;
-  margin-left: 40px;
-  margin-right: 20px;
-  border-radius: 20px;
-  text-align: center;
+font-size: 20px;
+text-align: center;
+padding-top: 0px;
 }
 
-.datos input,
-textarea,
-select {
-  margin: 10px 0 10px 0;
+.form-container{
+  display: grid;
+  gap: 4em;
+  margin-top: 1em;
+}
+
+.form-grup{
+  position: relative;
+  --color: black;
+}
+  
+
+.form-input {
   width: 100%;
-  min-height: 2em;
+  background: none;
+  color: #000000;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid var(--color);
+  font-family: 'Roboto', sans-serif;
 }
 
+
+input:not(input[type="radio"], input[type="checkbox"], input[type="submit"], input[type="textarea"]){
+  width: 100%;
+  background: transparent;
+  color: #000000;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid var(--color);
+  font-family: 'Roboto', sans-serif;
+}
+
+label{
+  cursor: pointer;
+  position:absolute;
+  color: var(--color);
+  top: 0;
+  left: 5px;
+}
+
+.selection-radio{
+  padding-top: 25%;
+}
+.selection{
+  padding-top: 10px;
+  color: black;
+}

@@ -12,49 +12,54 @@
         to exceed your own expectations.
       </p>
       <form id="survey-form">
-        <div class="datos">
-          <div>
+        <div class="form-container">
+          <div class="form-grup">
             <label
-              clase="form_imput"
+              clase="form-label"
               >Full Name:
               <input
-                clase="form_imput"
+                clase="form-input"
                 type="text"
                 id="name"
-                placeholder="Enter your name"
+                placeholder=" "
                 required
             /></label>
+            <span class="form-line"></span>
           </div>
-          <div>
+          <div class="form-grup">
             <label
-              clase="form_imput"
+              clase="form-label"
               >Email address:
               <input
-                clase="form_imput"
+                clase="form-input"
                 type="email"
                 id="email"
-                placeholder=" Enter your email"
+                placeholder=" "
                 required
             /></label>
+            <span class="form-line"></span>
           </div>
-          <div>
+          <div class="form-grup">
             <label
-              clase="form_imput"
+              clase="form-label"
               >Age:
               <input
-                clase="form_imput"
+                clase="form-input"
                 type="number"
                 id="number"
-                placeholder=" Enter your number"
+                placeholder=" "
                 required
                 min="14"
                 max="30"
             /></label>
+            <span class="form-line"></span>
           </div>
-          <div>
+          <div class="form-grup">
             <label
+            class="form-label"
               >Nationality.
-              <select id="dropdown">
+              <select id="dropdown" 
+              class="form-input">
                 <option>Select one...</option>
                 <option>Argentinian</option>
                 <option>Brazilian</option>
@@ -74,7 +79,7 @@
             </label>
           </div>
         </div>
-        <section id="radio-button">
+        <section  class="selection-radio" id="radio-button">
           <div>
             <p>Which of these positions do you play?</p>
           </div>
@@ -83,7 +88,7 @@
           <div><input type="radio" name="radio-button" /> Midfielder.</div>
           <div><input type="radio" name="radio-button" /> Forward.</div>
         </section>
-        <section id="clubs">
+        <section class="selection" id="clubs">
           <div>
             <p>Select club or clubs that interest you.</p>
           </div>
@@ -100,14 +105,12 @@
           <div><input type="checkbox" value="Tottenham" /> Tottenham.</div>
         </section>
         <div 
-        name="campo">
-        <label
-          >Why should you be selected?
-          <input
-            name="textarea"
-            type="textarea"
-            placeholder="Add your answer here..."
-        /></label></div>
+        class="textarea"
+        name="textarea"
+        type="textarea">
+        <label for="textarea">Why should you be selected?</label>
+        </div>
+        <input type="submit" class="form-submit" value="Submit">
       </form>
     </div>
   </body>
