@@ -92,3 +92,26 @@ label{
   padding-top: 10px;
   color: black;
 }
+
+.textarea{
+ text-align: center;
+ padding: 5px;
+ margin: 10px;
+ 
+ width: 90%;
+ border: solid, #000000;
+ background-color: transparent;
+ height: 22%;
+ margin-bottom: -16%;
+ font-family: 'Roboto', sans-serif;
+}
+
+.form-submit{
+  background-color: rgb(11, 4, 53);
+  color: white;
+  width: 100%;
+  max-width: 50%;
+  position: relative;
+  margin-left: 25%;
+  border-color: #000000c7;
+}
