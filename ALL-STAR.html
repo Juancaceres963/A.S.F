@@ -2,20 +2,19 @@
   <head>
     <title>ALL STAR</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="/assets/soccer-ball.png">
+    <link rel="icon" type="image/x-icon" href="/assets/soccer-ball.png" />
   </head>
   <body>
     <div class="background">
       <h1 id="title">ALL STAR</h1>
       <p id="description">
-        Discover your full potential, we will work 
-        to exceed your own expectations.
+        Discover your full potential, we will work to exceed your own
+        expectations.
       </p>
       <form id="survey-form">
         <div class="form-container">
           <div class="form-grup">
-            <label
-              clase="form-label"
+            <label id="name-label" clase="form-label"
               >Full Name:
               <input
                 clase="form-input"
@@ -27,8 +26,7 @@
             <span class="form-line"></span>
           </div>
           <div class="form-grup">
-            <label
-              clase="form-label"
+            <label id="email-label" clase="form-label"
               >Email address:
               <input
                 clase="form-input"
@@ -40,8 +38,7 @@
             <span class="form-line"></span>
           </div>
           <div class="form-grup">
-            <label
-              clase="form-label"
+            <label id="number-label" clase="form-label"
               >Age:
               <input
                 clase="form-input"
@@ -55,11 +52,9 @@
             <span class="form-line"></span>
           </div>
           <div class="form-grup">
-            <label
-            class="form-label"
+            <label class="form-label"
               >Nationality:
-              <select id="dropdown" 
-              class="form-input">
+              <select id="dropdown" class="form-input">
                 <option>Select one...</option>
                 <option>Argentinian</option>
                 <option>Brazilian</option>
@@ -79,14 +74,24 @@
             </label>
           </div>
         </div>
-        <section  class="selection-radio" id="radio-button">
+        <section class="selection-radio" id="radio-button">
           <div>
             <p>Which of these positions do you play?</p>
           </div>
-          <div><input type="radio" name="radio-button" /> Goalkeeper.</div>
-          <div><input type="radio" name="radio-button" /> Defence.</div>
-          <div><input type="radio" name="radio-button" /> Midfielder.</div>
-          <div><input type="radio" name="radio-button" /> Forward.</div>
+          <div>
+            <input type="radio" name="radio-button" value="Goalkeeper" />
+            Goalkeeper.
+          </div>
+          <div>
+            <input type="radio" name="radio-button" value="Defence" /> Defence.
+          </div>
+          <div>
+            <input type="radio" name="radio-button" value="Midfielder" />
+            Midfielder.
+          </div>
+          <div>
+            <input type="radio" name="radio-button" value="Forward" /> Forward.
+          </div>
         </section>
         <section class="selection" id="clubs">
           <div>
@@ -103,18 +108,15 @@
             United.
           </div>
           <div><input type="checkbox" value="Tottenham" /> Tottenham.</div>
-          <div class="textarea">Why should you be selected?
-        
-        <textarea 
-        class="textarea"
-        name="textarea"
-        id="textarea"> 
-        </textarea>
-        </div>
-        <input type="submit" class="form-submit" value="Submit">
-      </section>
+          <div class="textarea">
+            Why should you be selected?
+
+            <textarea class="textarea" name="textarea" id="textarea">
+            </textarea>
+          </div>
+          <input type="submit" id="submit" class="form-submit" value="Submit" />
+        </section>
       </form>
     </div>
   </body>
 </html>
-<label></label>

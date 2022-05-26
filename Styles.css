@@ -1,23 +1,21 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Permanent+Marker&family=Roboto:wght@300;400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Permanent+Marker&family=Roboto:wght@300;400;700&display=swap");
 
 body {
   background-image: url(https://images7.alphacoders.com/932/932701.jpg);
   background-position: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   position: relative;
   padding-top: 1%;
   padding-left: 30%;
   padding-right: 30%;
-  padding-bottom: 1%; 
+  padding-bottom: 1%;
 }
 
 .background {
   border-radius: 20px;
   background-color: #f0f0f0ce;
-  margin:auto;
+  margin: auto;
   width: 70%;
   max-width: 400px;
   min-width: 200px;
@@ -29,84 +27,82 @@ body {
 h1 {
   font-size: 50px;
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: rgb(11, 4, 53);
   margin-bottom: -15px;
 }
 
 p {
-font-size: 20px;
-text-align: center;
-padding-top: 0px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 0px;
 }
 
-.form-container{
+.form-container {
   display: grid;
   gap: 4em;
   margin-top: 1em;
 }
 
-.form-grup{
+.form-grup {
   position: relative;
   --color: black;
 }
-  
 
 .form-input {
   width: 100%;
   background: none;
   color: #000000;
   font-size: 1rem;
-  padding: .6em .3em;
+  padding: 0.6em 0.3em;
   border: none;
   outline: none;
   border-bottom: 1.5px solid var(--color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-
-input:not(input[type="radio"], input[type="checkbox"], input[type="submit"], input[type="textarea"]){
+input:not(input[type="radio"], input[type="checkbox"], input[type="submit"], input[type="textarea"]) {
   width: 100%;
   background: transparent;
   color: #000000;
   font-size: 1rem;
-  padding: .6em .3em;
+  padding: 0.6em 0.3em;
   border: none;
   outline: none;
   border-bottom: 1.5px solid var(--color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-label{
+label {
   cursor: pointer;
-  position:absolute;
+  position: absolute;
   color: var(--color);
   top: 0;
   left: 5px;
 }
 
-.selection-radio{
+.selection-radio {
   padding-top: 25%;
 }
-.selection{
+.selection {
   padding-top: 10px;
   color: black;
 }
 
-.textarea{
- text-align: center;
- padding: 5px;
- margin: 10px;
- 
- width: 90%;
- border: solid, #000000;
- background-color: transparent;
- height: 22%;
- margin-bottom: -16%;
- font-family: 'Roboto', sans-serif;
+.textarea {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+
+  width: 90%;
+  border: solid, #000000;
+  background-color: transparent;
+  height: 22%;
+  margin-bottom: -16%;
+  font-family: "Roboto", sans-serif;
 }
 
-.form-submit{
+.form-submit {
   background-color: rgb(11, 4, 53);
   color: white;
   width: 100%;
